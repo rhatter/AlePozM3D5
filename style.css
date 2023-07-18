@@ -1,0 +1,334 @@
+.navButt {
+  background-color: #ececec;
+  color: gray;
+  aspect-ratio: 1;
+  width: 40px;
+}
+
+.navbar-toggler {
+  border-color: #754ffe;
+  aspect-ratio: 5/4;
+}
+.navbar-toggler > * {
+  color: #754ffe;
+}
+
+.rightButtMenu > * {
+  margin: 0px 3px;
+}
+.dotNews {
+  width: 13px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  background-color: #754ffe;
+  top: 2px;
+  right: 2px;
+  border: solid 3px white;
+}
+
+.profile {
+  background-image: url("./assets/avatar-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.rightButtMenu {
+  position: absolute;
+  right: 12px;
+  top: 0px;
+}
+
+.dotProfile {
+  width: 13px;
+  aspect-ratio: 1;
+  border-radius: 100%;
+  background-color: #1acb98;
+  bottom: 2px;
+  right: 2px;
+  border: solid 3px white;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.dropdown-menu[data-bs-popper] {
+  right: 0;
+  left: unset;
+}
+
+.mail {
+  color: grey;
+}
+
+#profileDropdown > li > a {
+  padding: 10px 10px;
+}
+
+.profile > ul {
+  padding: 0px 0px;
+}
+
+main {
+  background-color: #754ffe;
+  min-height: 30vh;
+}
+
+main > :nth-child(2) > img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  overflow: visible;
+}
+main > div > :nth-child(1) {
+  color: white;
+  font-size: 2.8rem;
+}
+
+main > div > :nth-child(2) {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 1.6rem;
+}
+
+.bottone1,
+.bottone2 {
+  padding: 15px 20px;
+  background-color: #1acb98;
+  color: rgb(241 254 255);
+  border-radius: 5px;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  border: none;
+}
+
+.bottone2 {
+  background-color: white;
+  color: black;
+  margin-left: 0.2rem;
+}
+
+.bottone2:hover {
+  background-color: #1acb98;
+  color: white;
+}
+
+section:nth-of-type(1) {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 2px 1px #0000001f;
+  z-index: 1;
+  position: relative;
+}
+
+.listBarEl > :nth-child(1) {
+  background-color: #ffeeda;
+  width: 40px;
+  aspect-ratio: 1;
+  height: max-content;
+  color: #d0a171;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+.textBox > p {
+  margin-bottom: 0;
+}
+
+.listBarEl {
+  padding: 20px 20px;
+}
+
+.listBarEl {
+  padding: 1.2rem 0rem;
+}
+
+.textBox > :nth-child(1) {
+  font-weight: 500;
+}
+
+.textBox > :nth-child(2) {
+  color: rgb(159 159 159);
+}
+
+section:nth-of-type(2) {
+  background-color: #f5f4f8;
+  z-index: 0;
+  position: relative;
+}
+
+.unSelected {
+  font-weight: var(--fa-style, 100);
+}
+
+.techerProperties > img {
+  border-radius: 100%;
+  width: 30px;
+  aspect-ratio: 1;
+}
+
+.card-body {
+  padding: 0;
+}
+
+.card-body > div,
+.card-body > p {
+  padding: 0.4rem 1rem;
+}
+
+.techerProperties :last-child {
+  right: 1rem;
+  position: absolute;
+}
+
+.techerProperties :nth-child(2) {
+  margin-left: 0.4rem;
+}
+
+.techerProperties {
+  padding: 0.6rem 1rem !important;
+}
+
+#profileDropdown i {
+  width: 18px;
+  display: flex;
+  justify-content: center;
+}
+
+.card-body p {
+  margin-bottom: 0px;
+}
+
+.propertiesCard * {
+  margin-right: 0.5rem;
+}
+
+.card-body > :nth-child(1) {
+  padding-top: 1rem;
+}
+.card-body > :nth-child(4) {
+  padding-bottom: 1rem;
+}
+
+.starCard > *:nth-child(-n + 6) {
+  color: #fac445;
+}
+
+.starCard > *:nth-child(7) {
+  color: rgb(159 159 159);
+  font-size: 0.8rem;
+}
+.starCard > *:nth-child(n + 5) {
+  margin-right: 0.3rem;
+}
+
+.priceCard :nth-child(1) {
+  font-weight: bold;
+}
+.priceCard :nth-child(2) {
+  color: rgb(159 159 159);
+  font-size: 0.8rem;
+  text-decoration: line-through;
+  margin-left: 0.2rem;
+}
+
+.propertiesCard :nth-child(3) {
+  color: #754ffe;
+}
+
+.techerProperties :nth-child(3) {
+  font-size: 0.8rem;
+  color: rgb(159 159 159);
+}
+
+.titleCaruselArea > p {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+
+.carouselSection {
+  padding: 2rem 0rem;
+}
+
+.cardsCaruselArea {
+  flex-wrap: nowrap;
+  position: relative;
+}
+
+.leftScorr,
+.rightScorr {
+  position: absolute !important;
+  display: flex;
+  left: -30px;
+  z-index: 1;
+  justify-content: center;
+  bottom: 40%;
+  align-items: center;
+  background-color: #b3b3b3;
+  color: white;
+}
+.rightScorr {
+  right: -30px;
+  left: unset;
+}
+
+.cardsCaruselArea {
+  position: relative;
+  transition: left 0.6s ease;
+  left: 0%;
+  width: 100%;
+}
+
+.toggled {
+  font-weight: 900;
+}
+
+.fa-bookmark {
+  cursor: pointer;
+}
+
+.frameCarousel {
+  overflow: hidden;
+  width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+  #cardDestination > .row > div:nth-child(n + 7) {
+    display: unset;
+  }
+}
+
+.propertiesCard p {
+  font-size: 0.8rem;
+}
+.card-text {
+  display: -webkit-box;
+  /* max-width: 200px; */
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+#dataNavbarDest .dropdown-menu {
+  right: unset;
+}
+
+i {
+  pointer-events: none;
+}
+
+.hide {
+  display: none;
+}
+
+.carouselArea {
+  position: relative;
+  height: fit-content;
+}
+
+.card {
+  margin: 0 2%;
+}
+
+.carouselSection {
+  height: auto;
+}
